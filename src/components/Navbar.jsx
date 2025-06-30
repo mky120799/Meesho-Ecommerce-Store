@@ -98,10 +98,10 @@ const Navbar = () => {
           </Link>
           {isAuthenticated ? (
             <>
-              <span className="flex items-center gap-2">
-                <FaUserCircle className="text-purple-600" />
-                {user?.displayName || user?.email}
-              </span>
+            <span className="flex items-center gap-2 text-white">
+                <FaUserCircle className="text-white text-xl" />
+                <span>{user?.displayName || user?.email}</span>
+            </span>
               <button onClick={handleLogout}>Logout</button>
             </>
           ) : (

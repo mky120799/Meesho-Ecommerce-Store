@@ -18,9 +18,6 @@ const ProductCard = ({ product }) => {
       {isFreeDelivery && (
         <span className="text-green-600 text-xs mt-auto">Free Delivery</span>
       )}
-      <button Link='/cart' className="mt-2 py-1 px-3 bg-purple-600 text-white rounded hover:bg-purple-700 text-sm">
-        Add to Cart
-      </button>
     </div>
   );
 };

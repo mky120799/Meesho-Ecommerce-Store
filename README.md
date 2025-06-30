@@ -1,8 +1,4 @@
-# 🛍️ Meesho Clone
-
-A fully responsive e-commerce web application inspired by [Meesho](https://www.meesho.com/). Built using React, Tailwind CSS, and Vite. The application includes product filtering, category browsing, search functionality, and infinite scrolling for a seamless user experience.
-
-
+    
 # 🛍️ Meesho Clone (Frontend)
 
 A responsive and feature-rich e-commerce platform frontend built with **React**, **Tailwind CSS**, and **Vite**, inspired by [Meesho](https://www.meesho.com/). It simulates a shopping experience complete with product listing, filtering, category browsing, search functionality, infinite scrolling, and more.

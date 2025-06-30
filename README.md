@@ -1,9 +1,11 @@
-    
+
 # 🛍️ Meesho Clone (Frontend)
 
 A responsive and feature-rich e-commerce platform frontend built with **React**, **Tailwind CSS**, and **Vite**, inspired by [Meesho](https://www.meesho.com/). It simulates a shopping experience complete with product listing, filtering, category browsing, search functionality, infinite scrolling, and more.
 
 > 🚀 This is a frontend-only project designed for learning and showcasing modern React development.
+
+## Access the live demo: [Meesho Clone Demo](https://meesho-ecommerce-store.vercel.app/)
 
 ## ✨ Features
 
@@ -24,6 +26,7 @@ A responsive and feature-rich e-commerce platform frontend built with **React**,
 - **React Router**
 - **Redux Toolkit**
 - **React Icons**
+- **DummyJSON API** for mock data
 
 ## 📦 Installation
 
@@ -67,11 +70,12 @@ meesho-clone/
 
 ## 🌐 Deployment
 
-This app is deployable on Netlify, Vercel, GitHub Pages, etc.
+This app is deployable on vercel.
 
 ## 📸 Demo (Optional)
 
-Add screenshots or a video demo here.
+![Hero Section](./src/assets/homePage.png)
+
 
 ## 🙏 Acknowledgements
 

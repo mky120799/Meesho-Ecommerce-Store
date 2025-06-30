@@ -42,7 +42,9 @@ const Navbar = () => {
     <nav className="bg-purple-600 text-white px-4 py-3 flex flex-wrap items-center justify-between">
       {/* Left - Logo */}
       <div className="text-3xl font-bold text-white">
-        <Link to="/">Meesho</Link>
+        <Link to="/" className="block w-full h-full">
+          <span className="inline-block">Meesho</span>
+        </Link>
       </div>
       {/* Mobile menu toggle button */}
       <div className="sm:hidden">

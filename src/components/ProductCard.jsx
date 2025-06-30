@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const ProductCard = ({ product }) => {
+  const isFreeDelivery = Math.random() > 0.5;
   return (
     <div className="border rounded-lg shadow hover:shadow-lg p-3 flex flex-col justify-between h-[400px] max-w-xs mx-auto">
       <Link to={`/product/${product.id}`}>
@@ -14,7 +15,15 @@ const ProductCard = ({ product }) => {
       <h3 className="text-sm font-medium mb-1">{product.title}</h3>
       <p className="text-purple-700 font-semibold mb-1">₹{product.price}</p>
       <p className="text-xs text-gray-500">⭐ {product.rating} / 5</p>
-      <span className="text-green-600 text-xs mt-auto">Free Delivery</span>
+      {isFreeDelivery && (
+        <span className="text-green-600 text-xs mt-auto">Free Delivery</span>
+      )}
+      <Link
+        to="/cart"
+        className="mt-2 py-1 px-3 bg-purple-600 text-white rounded hover:bg-purple-700 text-sm text-center block"
+      >
+        Add to Cart
+      </Link>
     </div>
   );
 };

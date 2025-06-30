@@ -25,12 +25,14 @@ const CartPage = () => {
   return (
     <main className="max-w-6xl mx-auto px-4 py-10">
       <h1 className="text-2xl font-bold mb-6">🛒 Your Cart</h1>
-      <Link
-        to="/products"
-        className="mt-4 bg-white border border-purple-600 text-purple-600 hover:bg-purple-100 py-2 px-4 rounded"
-      >
-        ← Back to Products
-      </Link>
+  <div className="mb-6">
+    <Link
+      to="/products"
+      className="bg-white border border-purple-600 text-purple-600 hover:bg-purple-100 py-2 px-4 rounded"
+    >
+      ← Back to Products
+    </Link>
+  </div>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
         {/* Left: Cart Items */}
         <div className="lg:col-span-2 space-y-6">

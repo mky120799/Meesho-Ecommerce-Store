@@ -74,7 +74,6 @@ This app is deployable on vercel.
 
 ## 📸 Demo (Optional)
 
-![Hero Section](./src/assets/homePage.png)
 
 
 ## 🙏 Acknowledgements
